@@ -13,10 +13,18 @@ using Autodesk.AutoCAD.Runtime;
 using Autodesk.AutoCAD.Windows.Data;
 #endregion
 
-namespace AutoCAD.NET
+namespace AutoCAD.NET._01.PrintHelloWorld
 {
-    public class AutoCAD
+    internal class PrintCommand
     {
+        [CommandMethod("CMD-HL")]
+        public void PrintHelloWorld()
+        {
+            Document document = Application.DocumentManager.MdiActiveDocument;
+            Editor editor = document.Editor;
+            Database database = document.Database;
 
+            editor.WriteMessage("Hello world.");
+        }
     }
 }

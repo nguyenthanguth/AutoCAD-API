@@ -1,0 +1,6 @@
+C:\Users\Admin\Documents\GitHub\AutoCAD-API\AutoCAD.NET\bin\Debug\AutoCAD.NET.dll
+C:\Users\Admin\Documents\GitHub\AutoCAD-API\AutoCAD.NET\bin\Debug\AutoCAD.NET.pdb
+C:\Users\Admin\Documents\GitHub\AutoCAD-API\AutoCAD.NET\obj\Debug\AutoCAD.NET.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\AutoCAD-API\AutoCAD.NET\obj\Debug\AutoCAD.NET.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\AutoCAD-API\AutoCAD.NET\obj\Debug\AutoCAD.NET.dll
+C:\Users\Admin\Documents\GitHub\AutoCAD-API\AutoCAD.NET\obj\Debug\AutoCAD.NET.pdb
