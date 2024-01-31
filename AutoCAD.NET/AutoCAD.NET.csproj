@@ -67,9 +67,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="01.PrintCommand\README.md" />
+    <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="01.PrintCommand\print.gif" />
+    <Content Include="loadReferences.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
