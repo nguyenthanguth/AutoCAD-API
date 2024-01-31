@@ -67,11 +67,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="01.PrintCommand\README.md" />
-    <None Include="README.md" />
+    <None Include="References\README.md" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="01.PrintCommand\print.gif" />
-    <Content Include="loadReferences.gif" />
+    <Content Include="References\loadReferences.gif" />
     <Content Include="References\accoremgd.dll" />
     <Content Include="References\acdbmgd.dll" />
     <Content Include="References\acdbmgdbrep.dll" />

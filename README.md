@@ -9,7 +9,7 @@
     AcMPolygonMGD.dll
 ## How to load references
 <p align="middle">
-  <img src="./AutoCAD.NET/loadReferences.gif">
+  <img src="./AutoCAD.NET/References/loadReferences.gif">
 </p>
 
 # Base using
