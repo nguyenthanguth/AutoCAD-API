@@ -17,14 +17,12 @@ namespace AutoCAD.NET
 {
     public class AutoCAD
     {
-        [CommandMethod("CMD-DEMO")]
+        [CommandMethod("CMD")]
         public void PrintHelloWorld()
         {
             Document document = Application.DocumentManager.MdiActiveDocument;
             Editor editor = document.Editor;
             Database database = document.Database;
-
-            PrintCommand.WriteMessage("-", "a", "b", "c", "d", "e", "f", 1000, 2000, 3000);
         }
     }
 }

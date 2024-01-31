@@ -15,21 +15,29 @@ using Autodesk.AutoCAD.Windows.Data;
 
 namespace AutoCAD.NET
 {
-    internal class PrintCommand
+    public class PrintCommand
     {
+        // in ra command
         [CommandMethod("CMD-HL")]
-        public void PrintHelloWorld()
+        public void Print()
         {
             Document document = Application.DocumentManager.MdiActiveDocument;
             Editor editor = document.Editor;
 
-            editor.WriteMessage("Hello world.");
+            editor.WriteMessage("Hello world...");
+        }
+
+        // in ra command với nhiều parameter
+        [CommandMethod("CMD-HL2")]
+        public void Print2()
+        {
+            PrintCommand.WriteMessage("\n", "a", "b", "c", "d", "e", "f", 1000, 2000, 3000, true, false, 3, 2, 1);
         }
 
         /// <summary>
-        /// in ra màn hình với mỗi khoảng cách là ký tự mặc định: \n
+        /// in ra màn hình với mỗi khoảng cách là ký tự `c`
         /// </summary>
-        public static void WriteMessage(string c = "\n", params object[] value)
+        public static void WriteMessage(string c, params object[] value)
         {
             Application.DocumentManager.MdiActiveDocument.Editor.WriteMessage(string.Join(c, value));
         }
