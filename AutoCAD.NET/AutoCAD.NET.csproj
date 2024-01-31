@@ -61,22 +61,41 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="01.PrintCommand\PrintCommand.cs" />
+    <Compile Include="02.PrintCommand\PrintCommand.cs" />
     <Compile Include="AutoCAD.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="01.PrintCommand\README.md" />
-    <None Include="References\README.md" />
+    <None Include="02.PrintCommand\README.md" />
+    <None Include="01.References\README.md" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="01.PrintCommand\print.gif" />
-    <Content Include="References\loadReferences.gif" />
-    <Content Include="References\accoremgd.dll" />
-    <Content Include="References\acdbmgd.dll" />
-    <Content Include="References\acdbmgdbrep.dll" />
-    <Content Include="References\acmgd.dll" />
-    <Content Include="References\AcMPolygonMGD.dll" />
+    <Content Include="01.References\02.Excel\Microsoft.Office.Interop.Excel.dll" />
+    <Content Include="01.References\02.Excel\SpreadsheetGear2012.dll" />
+    <Content Include="01.References\03.Tekla_v20\Tekla.Structures.Catalogs.dll" />
+    <Content Include="01.References\03.Tekla_v20\Tekla.Structures.Datatype.dll" />
+    <Content Include="01.References\03.Tekla_v20\Tekla.Structures.Dialog.dll" />
+    <Content Include="01.References\03.Tekla_v20\Tekla.Structures.dll" />
+    <Content Include="01.References\03.Tekla_v20\Tekla.Structures.Drawing.dll" />
+    <Content Include="01.References\03.Tekla_v20\Tekla.Structures.Geometry3d.Compatibility.dll" />
+    <Content Include="01.References\03.Tekla_v20\Tekla.Structures.Model.dll" />
+    <Content Include="01.References\03.Tekla_v20\Tekla.Structures.Plugins.dll" />
+    <Content Include="01.References\04.Tekla_v22\Tekla.Structures.Catalogs.dll" />
+    <Content Include="01.References\04.Tekla_v22\Tekla.Structures.Datatype.dll" />
+    <Content Include="01.References\04.Tekla_v22\Tekla.Structures.Dialog.dll" />
+    <Content Include="01.References\04.Tekla_v22\Tekla.Structures.dll" />
+    <Content Include="01.References\04.Tekla_v22\Tekla.Structures.Drawing.dll" />
+    <Content Include="01.References\04.Tekla_v22\Tekla.Structures.Geometry3d.Compatibility.dll" />
+    <Content Include="01.References\04.Tekla_v22\Tekla.Structures.Model.dll" />
+    <Content Include="01.References\04.Tekla_v22\Tekla.Structures.Plugins.dll" />
+    <Content Include="02.PrintCommand\print.gif" />
+    <Content Include="01.References\loadReferences.gif" />
+    <Content Include="01.References\01.CAD\accoremgd.dll" />
+    <Content Include="01.References\01.CAD\acdbmgd.dll" />
+    <Content Include="01.References\01.CAD\acdbmgdbrep.dll" />
+    <Content Include="01.References\01.CAD\acmgd.dll" />
+    <Content Include="01.References\01.CAD\AcMPolygonMGD.dll" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
