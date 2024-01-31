@@ -72,6 +72,11 @@
   <ItemGroup>
     <Content Include="01.PrintCommand\print.gif" />
     <Content Include="loadReferences.gif" />
+    <Content Include="References\accoremgd.dll" />
+    <Content Include="References\acdbmgd.dll" />
+    <Content Include="References\acdbmgdbrep.dll" />
+    <Content Include="References\acmgd.dll" />
+    <Content Include="References\AcMPolygonMGD.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
