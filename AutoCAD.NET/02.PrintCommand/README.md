@@ -1,4 +1,4 @@
 ## Sample results
 <p align="middle">
-  <img src="./print.gif">
+  <img src="./sampleResult.gif">
 </p>

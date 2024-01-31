@@ -88,7 +88,7 @@
     <Content Include="01.References\04.Tekla_v22\Tekla.Structures.Geometry3d.Compatibility.dll" />
     <Content Include="01.References\04.Tekla_v22\Tekla.Structures.Model.dll" />
     <Content Include="01.References\04.Tekla_v22\Tekla.Structures.Plugins.dll" />
-    <Content Include="02.PrintCommand\print.gif" />
+    <Content Include="02.PrintCommand\sampleResult.gif" />
     <Content Include="01.References\loadReferences.gif" />
     <Content Include="01.References\01.CAD\accoremgd.dll" />
     <Content Include="01.References\01.CAD\acdbmgd.dll" />
