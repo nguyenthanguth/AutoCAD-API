@@ -1,4 +1,4 @@
 ## Sample results
-<p align="left">
+<p align="middle">
   <img src="./print.gif">
 </p>
