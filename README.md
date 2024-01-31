@@ -1,6 +1,11 @@
 # AutoCAD API
     AutoCAD programming in C# language
 
+# Create new project
+<p align="middle">
+  <img src="./newProject.gif">
+</p>
+
 # Base load file .dll
     accoremgd.dll
     acdbmgd.dll
