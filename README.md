@@ -8,7 +8,7 @@
     acmgd.dll
     AcMPolygonMGD.dll
 ## How to load references
-<p align="middle" width="400">
+<p align="middle">
   <img src="./loadReferences.gif">
 </p>
 
