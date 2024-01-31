@@ -7,8 +7,8 @@
     acdbmgdbrep.dll
     acmgd.dll
     AcMPolygonMGD.dll
-## How to load
-<p align="middle">
+## How to load references
+<p align="middle" width="400">
   <img src="./AutoCAD-API/loadReferences.gif">
 </p>
 
